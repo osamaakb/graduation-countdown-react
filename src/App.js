@@ -20,8 +20,8 @@ export default function App() {
         <h1>Hello pathetic university student</h1>
         <span className="desc">This is how long you have left to graduate</span>
         <DateCountdown
-          dateTo="July 25, 2020 11:00:00 UTC+03:00"
-          callback={() => alert("Hello")}
+          dateTo="July 23, 2020 11:00:00 UTC+03:00"
+          callback={() => alert("I graduated you pathetic")}
         />
         <p>
           made with hate by{" "}
