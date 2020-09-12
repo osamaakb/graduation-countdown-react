@@ -20,7 +20,7 @@ export default function App() {
         <h1>Hello Osama and Shosho</h1>
         <span className="desc">This is how long you have left to engage</span>
         <DateCountdown
-          dateTo="September 18, 2020 4:00:00 UTC+03:00"
+          dateTo="September 18, 2020 16:00:00 UTC+03:00"
           callback={() => console.log("you did it")}
         />
         <p>
