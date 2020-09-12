@@ -18,7 +18,10 @@ export default function App() {
       <div className="bg-color"> </div>
       <div className="container">
         <h1>Hello Osama and Shosho</h1>
-        <span className="desc">This is how long you have left to engage</span>
+        <span className="desc">
+          This is how long you have left to engage{" "}
+          <small>and anyone else</small>
+        </span>
         <DateCountdown
           dateTo="September 18, 2020 16:00:00 UTC+03:00"
           callback={() => console.log("you did it")}
