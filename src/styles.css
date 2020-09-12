@@ -34,10 +34,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 12px 12px;
+  background-color: wheat;
+  border-radius: 8px;
+  box-shadow: 4px 4px lightcoral;
   margin: 20px;
+  opacity: 0.6;
 }
 
 h1 {
@@ -52,8 +53,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: white;
-  background-color: black;
+  color: black;
   padding: 3px;
   border-radius: 4px;
 }
@@ -71,7 +71,7 @@ html,
   font-size: 20px;
   margin: 8px;
   text-align: center;
-  color: grey;
+  color: lightcoral;
 }
 
 @media screen and (max-width: 480px) {

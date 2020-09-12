@@ -13,22 +13,22 @@ export default function App() {
       <img
         alt="bg-img"
         className="bg-img"
-        src="https://i.imgur.com/tuQx4LI.jpg"
+        src="https://annapimenta.pl/wp-content/uploads/2019/09/Where_to_buy_an_engagement_ring_in_Cracow_photographer_surprise_proposal-9-1000x550.jpg"
       />
       <div className="bg-color"> </div>
       <div className="container">
-        <h1>Hello pathetic university student</h1>
-        <span className="desc">This is how long you have left to graduate</span>
+        <h1>Hello Osama and Shahad</h1>
+        <span className="desc">This is how long you have left to engage</span>
         <DateCountdown
-          dateTo="July 23, 2020 11:00:00 UTC+03:00"
-          callback={() => alert("I graduated you pathetic")}
+          dateTo="September 18, 2020 4:00:00 UTC+03:00"
+          callback={() => console.log("you did it")}
         />
         <p>
-          made with hate by{" "}
+          made with love by
           <a href="https://github.com/osamaakb" target={"_blank"}>
             Osama
-          </a>{" "}
-          🖤
+          </a>
+          ❤️
         </p>
       </div>
     </div>
