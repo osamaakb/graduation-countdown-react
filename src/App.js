@@ -17,7 +17,7 @@ export default function App() {
       />
       <div className="bg-color"> </div>
       <div className="container">
-        <h1>Hello Osama and Shahad</h1>
+        <h1>Hello Osama and Shosho</h1>
         <span className="desc">This is how long you have left to engage</span>
         <DateCountdown
           dateTo="September 18, 2020 4:00:00 UTC+03:00"
