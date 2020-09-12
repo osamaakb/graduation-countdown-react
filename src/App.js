@@ -19,7 +19,7 @@ export default function App() {
       <div className="container">
         <h1>Hello Osama and Shosho</h1>
         <span className="desc">
-          This is how long you have left to engage{" "}
+          This is how long you have left to engage <br />
           <small>and anyone else</small>
         </span>
         <DateCountdown
